@@ -1,2 +1,1 @@
-FROM bitnami/kube-state-metrics:2.9.2
-ARG GOARCH=arm64
+FROM asia.gcr.io/k8s-artifacts-prod/kube-state-metrics/kube-state-metrics-arm64:v2.0.0
