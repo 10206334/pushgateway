@@ -1,1 +1,2 @@
-FROM asia.gcr.io/k8s-artifacts-prod/kube-state-metrics/kube-state-metrics-arm64:v2.0.0
+FROM  --platform=linux/arm64/v8 prom/pushgateway:v1.5.0
+ARG ARCH=arm64
